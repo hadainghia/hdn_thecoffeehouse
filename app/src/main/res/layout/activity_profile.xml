@@ -27,14 +27,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <ImageView
-                android:src="@drawable/samurai"
-                android:layout_width="100dp"
-                android:layout_height="100dp">
+                android:src="@drawable/hdn"
+                android:layout_width="90dp"
+                android:layout_height="90dp">
             </ImageView>
             <TextView
                 android:textColor="#2E2E2E"
                 android:textSize="25sp"
-                android:text="Dương Xuân Dưỡng"
+                android:text="Hà Đại Nghĩa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
             </TextView>
@@ -45,7 +45,7 @@
                 <TextView
                     android:textSize="23sp"
                     android:text="0"
-                    android:drawableRight="@drawable/ic_coin"
+                    android:drawableRight="@drawable/ic_money"
                     android:textColor="#FA5858"
                     android:drawablePadding="10dp"
                     android:layout_width="wrap_content"
@@ -104,7 +104,7 @@
             <TextView
                 android:textColor="#2E2E2E"
                 android:textSize="23sp"
-                android:text="Dương Xuân Dưỡng"
+                android:text="Hà Đại Nghĩa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
             </TextView>
@@ -128,7 +128,7 @@
             <TextView
                 android:textColor="#2E2E2E"
                 android:textSize="23sp"
-                android:text="07/02/2000"
+                android:text="05/01/2000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
             </TextView>
@@ -152,7 +152,7 @@
             <TextView
                 android:textColor="#2E2E2E"
                 android:textSize="23sp"
-                android:text="0976942493"
+                android:text="090111110"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
             </TextView>
@@ -176,7 +176,7 @@
             <TextView
                 android:textColor="#2E2E2E"
                 android:textSize="23sp"
-                android:text="duongls2ls@gmail.com"
+                android:text="hadainghiagl@gmail.com"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
             </TextView>

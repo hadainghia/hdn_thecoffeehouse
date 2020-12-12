@@ -23,29 +23,83 @@
                 android:src="@drawable/coffe1"
                 tools:ignore="MissingPrefix" />
             <LinearLayout
-                android:padding="10dp"
-                android:id="@+id/descripton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
                 android:orientation="vertical"
-                android:layout_marginTop="5dp">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
                 <TextView
-                    android:id="@+id/title_gthieu"
-                    android:padding="10dp"
-                    android:textStyle="bold"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:id="@+id/tv_titleNotiSub"
                     android:textColor="@color/black"
-                    android:textSize="17sp"
-                    android:text="Ngại ra ngoài cứ để Nhà lo"/>
+                    android:textSize="20sp"
+                    android:text="Bạn thích món nào nhất tại Nhà"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/img_notiSub1"
+                        android:src="@drawable/ic_latte"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+                    <TextView
+                        android:layout_marginLeft="6dp"
+                        android:id="@+id/tv_notiSub1"
+                        android:textSize="20sp"
+                        android:text="Cà phê sữa đậm đà"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/img_notiSub2"
+                        android:src="@drawable/ic_orange"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+                    <TextView
+                        android:layout_marginLeft="6dp"
+                        android:id="@+id/tv_notiSub2"
+                        android:textSize="20sp"
+                        android:text="Trà đào cam sả trứ danh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/img_notiSub3"
+                        android:src="@drawable/ic_milk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+                    <TextView
+                        android:layout_marginLeft="6dp"
+                        android:id="@+id/tv_notiSub3"
+                        android:textSize="20sp"
+                        android:text="Trà OoLong hạt sen thơm bùi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                </LinearLayout>
                 <TextView
-                    android:id="@+id/content_product"
-                    android:textColor="@color/black"
-                    android:textSize="17sp"
-                    android:text="Sô cô la thơm lừng bao bọc hạc Mắc ca bùi béo thiệt gon"
-                    android:padding="10dp"
+                    android:id="@+id/tv_bottom"
+                    android:paddingTop="10dp"
+                    android:drawablePadding="5dp"
+                    android:textSize="15sp"
+                    android:text="Chủ nhật tuần trước lúc 11:00"
                     android:layout_width="match_parent"
-                    android:layout_height="80dp">
+                    android:layout_height="wrap_content">
                 </TextView>
             </LinearLayout>
             <View
